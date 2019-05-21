@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathService", "MathService\MathService.csproj", "{35A79A49-689A-4E29-B63B-0C8F619298D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsClient", "WinFormsClient\WinFormsClient.csproj", "{E23A94E2-015D-4246-B956-A1994A16C6B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{35A79A49-689A-4E29-B63B-0C8F619298D6} = {35A79A49-689A-4E29-B63B-0C8F619298D6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35A79A49-689A-4E29-B63B-0C8F619298D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A79A49-689A-4E29-B63B-0C8F619298D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A79A49-689A-4E29-B63B-0C8F619298D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A79A49-689A-4E29-B63B-0C8F619298D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E23A94E2-015D-4246-B956-A1994A16C6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23A94E2-015D-4246-B956-A1994A16C6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23A94E2-015D-4246-B956-A1994A16C6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23A94E2-015D-4246-B956-A1994A16C6B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2FD7A65-ACBA-471A-89C9-43C7C9803E2B}
+	EndGlobalSection
+EndGlobal
